@@ -7,7 +7,7 @@ public class Main {
         //Kompilacja programu
         //javac Main.java
         //Uruchomienie
-        //java Main // (UWAGA)
+        //java Main
 
     public static void main(String[] args) {
 
@@ -18,5 +18,7 @@ public class Main {
         IntStream stream = IntStream.builder().add(10).add(10).build();
         int sum = stream.sum();
         System.out.println(sum);
+
+
     }
 }
